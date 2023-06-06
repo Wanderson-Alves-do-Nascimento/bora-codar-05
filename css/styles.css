@@ -63,7 +63,7 @@ body * {
   line-height: 140%;
   color: var(--text-default);
   height: 40px;
-  max-width: 180px;
+  max-width: 172px;
   overflow: hidden;
 }
 .keys {
@@ -108,14 +108,13 @@ body * {
   border-radius: 999px;
   color: var(--text-default);
 }
-
-.keys  button#clear{
+.keys  button.theme-1{
 color: var(--bg-theme);
 }
-.keys  button.action {
+.keys  button.theme-2 {
   background-color: var(--bg-btn-action);
 }
-.keys  button.equals{
+.keys  button.theme-3{
   background-color: var(--bg-btn-clear);
 }
 
